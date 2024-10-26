@@ -1,4 +1,4 @@
-//GitHub Copilot was used to assist in writing the code;
+//GitHub Copilot assisted in writing this code.
 
 var elevator;
 var ellipses = [];
@@ -76,14 +76,14 @@ function draw() {
   
     // Display text in the middle of the screen
     textAlign(CENTER, CENTER);
-    textSize(windowWidth / 100);
+    textSize(windowWidth / 115);
     textFont(InterstateBCFont); 
     noStroke();
     fill(0); 
     text(
       "The morning session with Andy consisted of us picking a phrase of our choosing. My phrase was “Erm what the sigma”, because Tik Tok brain rot has taken me over. With our phrase we did a crazy eight, which was the first time I had ever heard of the process. It is essentially the generation of ideas phase. We were tasked with quickly generating our phrase in 8 different ways.\n\n In the afternoon class with Karen, we set up our programming softwares and then moved onto our first bit of code. We used our crazy eights to do our first bit of coding. We had to select one of our crazy eights and recreate it with code and have an image with it. I found this pretty straight forward and easy to get a hold of.\n\n\ Click on the code!",
       width / 2.8,
-      height / 8,
+      height / 12,
       width / 3.5, // Specify the width for wrapping the text
       height / 2  // Specify the height for wrapping the text
     );
@@ -103,6 +103,6 @@ function mousePressed() {
   let cw1W = width / 5;  
   let cw1H = height / 3;  
   if (mouseX > cw1X - cw1W / 2 && mouseX < cw1X + cw1W / 2 && mouseY > cw1Y - cw1H / 2 && mouseY < cw1Y + cw1H / 2) {  
-   window.location.href = "https://tnhowler.github.io/ERM-WHAT-THE-SIGMA/"; 
+   window.location.href = "https://tnhowler.github.io/ERM-WHAT-THE-SIGMA/";
   }  
 }
